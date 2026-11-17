@@ -1,0 +1,95 @@
+{
+  "bench": {
+    "defaults": {
+      "rad": 14,
+      "pillWp": 95,
+      "pillHp": 100,
+      "pillBlur": 14,
+      "pillTint": 45,
+      "soloOn": false,
+      "pillSizeOn": false,
+      "pillGlassOn": false,
+      "pillGlassChip": true,
+      "fit": "full",
+      "mg": 1,
+      "ly": 78,
+      "pw": 36.5,
+      "bannerH": 9,
+      "infoH": 11,
+      "infoHLand": 11
+    },
+    "presets": [
+      {
+        "devBg": "#16181c",
+        "devFg": "#ffffff",
+        "chipBg": "#f2efe8",
+        "chipFg": "#14161a",
+        "noteBg": "#5b3df5",
+        "noteFg": "#ffffff",
+        "devSize": 34,
+        "chipSize": 24
+      },
+      {
+        "devBg": "#bfe3f5",
+        "devFg": "#0d1a24",
+        "chipBg": "#16181c",
+        "chipFg": "#ffffff",
+        "noteBg": "#5b3df5",
+        "noteFg": "#ffffff",
+        "devSize": 34,
+        "chipSize": 24
+      },
+      {
+        "devBg": "#e01f27",
+        "devFg": "#ffffff",
+        "chipBg": "#16181c",
+        "chipFg": "#e01f27",
+        "noteBg": "#e01f27",
+        "noteFg": "#ffffff",
+        "devSize": 34,
+        "chipSize": 24
+      },
+      {
+        "devBg": "#f2efe8",
+        "devFg": "#14161a",
+        "chipBg": "#16181c",
+        "chipFg": "#ffffff",
+        "noteBg": "#14161a",
+        "noteFg": "#ffffff",
+        "devSize": 34,
+        "chipSize": 24
+      }
+    ],
+    "boxes": [
+      {
+        "suffix": "benchmark-01"
+      },
+      {
+        "suffix": "benchmark-02"
+      },
+      {
+        "suffix": "benchmark-03"
+      }
+    ]
+  },
+  "_global": {
+    "shOn": true,
+    "shT": 60,
+    "shS": 100,
+    "shB": 5,
+    "shAng": 0,
+    "shDist": 0,
+    "shCol": "#000000",
+    "shPre": "",
+    "blur": 15,
+    "dim": 5,
+    "wmSize": 9,
+    "showShots": true,
+    "bgShared": true,
+    "outFmt": {
+      "type": "image/jpeg",
+      "ext": "jpg",
+      "name": "JPG"
+    }
+  }
+}
